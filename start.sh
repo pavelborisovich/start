@@ -7,7 +7,7 @@ sudo mv Telegram /usr/bin/
 cd ..
 rm tsetup.2.5.8.tar.xz
 rm Telegram
-sudo apt install vlc plank transmission
+sudo apt install vlc plank transmission xfce4-terminal
 plank
 sudo systemctl /usr/bin/plank
 sudo systemctl enable bluetooth.service
