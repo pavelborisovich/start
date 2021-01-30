@@ -1,3 +1,4 @@
+sudo apt update
 cd Downloads
 wget https://updates.tdesktop.com/tlinux/tsetup.2.5.8.tar.xz
 tar -xf tsetup.2.5.8.tar.xz
@@ -18,4 +19,5 @@ cd toriptables2
 sudo mv toriptables2.py tor.py
 sudo chmod +x tor.py
 sudo mv tor.py /usr/local/bin
-
+sudo apt upgrade
+sudo apt install -f
