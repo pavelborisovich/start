@@ -15,6 +15,9 @@ plank &
 sudo systemctl /usr/bin/plank
 sudo systemctl enable bluetooth.service
 sudo systemctl start bluetooth.service
+mkdir /home/pavlin/.themes
+wget https://clck.ru/T4aqz
+tar -C /home/pavlin/.themes/ -xv Sweet-Dark.tar.xz
 sudo apt-get install tor
 sudo systemctl start tor
 git clone https://github.com/ruped24/toriptables2
