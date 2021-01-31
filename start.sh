@@ -6,8 +6,7 @@ cd Telegram
 sudo mv Telegram /usr/bin/
 cd ..
 rm tsetup.2.5.8.tar.xz
-rm Telegram
-Telegram &
+rm -rf Telegram
 sudo add-apt-repository ppa:teejee2008/ppa
 sudo apt update
 sudo apt install timeshift
