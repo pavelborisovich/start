@@ -18,6 +18,9 @@ sudo systemctl start bluetooth.service
 mkdir /home/pavlin/.themes
 wget https://clck.ru/T4aqz
 tar -C /home/pavlin/.themes/ -xv Sweet-Dark.tar.xz
+mkdir /home/pavlin/.icons
+wget https://clck.ru/T75YM
+tar -C /home/pavlin/.icons/ -xv candy-icons.tar.xz
 sudo apt-get install tor
 sudo systemctl start tor
 git clone https://github.com/ruped24/toriptables2
